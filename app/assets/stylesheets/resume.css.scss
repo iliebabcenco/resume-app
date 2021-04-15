@@ -134,16 +134,18 @@ p.enlarge span {
     color: #000
 }
 
-.contact-info {
+.cont-h {
+    clear: both;
+    margin-top: 1rem;
+}
+
+.contacts {
     margin-top: 7px;
+    float: left;
 }
 
 .first {
     clear: both;
-}
-
-.yui-u {
-    // text-align: right;
 }
 
 .first h2 {
@@ -158,16 +160,21 @@ p.enlarge span {
     border-bottom: 0
 }
 
+.np {
+    margin-top: 2.2rem;
+    width: 100%;
+}
+
 
 /* //-- section styles -- */
 
 a#pdf {
     display: block;
-    float: right;
+    float: left;
     background: #666;
     color: white;
     padding: 6px 50px 6px 12px;
-    margin-bottom: 6px;
+    margin-bottom: 1rem;
     text-decoration: none;
 }
 
