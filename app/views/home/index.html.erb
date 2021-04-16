@@ -1,15 +1,15 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html>
+<html style="background-color: #d2d2d2">
   <head>
     <title>Jonathan Doe | Web Designer, Director | name@yourdomain.com</title>
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <meta name="keywords" content="" />
     <meta name="description" content="" />
-    <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.7.0/build/reset-fonts-grids/reset-fonts-grids.css" media="all" />
     <link rel="stylesheet" type="text/css" href="resume.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.7.0/build/reset-fonts-grids/reset-fonts-grids.css" media="all" />
   </head>
   <body>
-    <div id="doc2" class="yui-t7">
+    <div id="doc2" class="yui-t7" style="margin: 70px auto;">
       <div id="inner">
         <div id="hd">
           <div class="yui-gc first">
@@ -17,7 +17,7 @@
             <div class="contacts">
               <h1 class="np">ILIE BABCENCO</h1>
               <h2 class="cont-h">Student Software Engineer</h2>
-              <h3 class="cont-h"><a id="pdf" href="#">Download PDF</a></h3>
+              <h3 class="cont-h"><%= link_to "Download C.V.", download_pdf_path, id: "pdf" %></h3>
               <h3 class="cont-h"><a href="mailto:ilie.babcenco@gmail.com">ilie.babcenco@gmail.com</a></h3>
               <h3 class="cont-h">+37360848661</h3>
             </div>
