@@ -67,9 +67,8 @@ body {
 
 /* //-- footer -- */
 #ft {
-    padding: 1em 0 5em 0;
+    padding-top: 1em;
     font-size: 92%;
-    border-top: 1px solid #ccc;
     text-align: center;
 }
 
@@ -125,7 +124,7 @@ li {
 }
 
 p.enlarge {
-    font-size: 144%;
+    font-size: 110%;
     padding-right: 6.5em;
     line-height: 24px;
 }
@@ -141,6 +140,7 @@ p.enlarge span {
 
 .contacts {
     margin-top: 7px;
+    margin-left: 1rem;
     float: left;
 }
 
@@ -184,9 +184,9 @@ a#pdf:hover {
 
 .job {
     position: relative;
-    margin-bottom: 1em;
+    // margin-top: 1em;
     padding-bottom: 1em;
-    border-bottom: 1px solid #ccc;
+    // border-bottom: 1px solid #ccc;
 }
 
 .job h4 {
@@ -196,7 +196,7 @@ a#pdf:hover {
 }
 
 .job p {
-    margin: 0.75em 0 3em 0;
+    margin: 0.75em 0 0.75em 0;
 }
 
 .last {
